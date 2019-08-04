@@ -1,0 +1,35 @@
+.about-block {
+  margin-bottom: 3rem;
+}
+
+.about-block h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #eb8555;
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
+
+.about-block p {
+  font-size: 1rem;
+  color: #000;
+  line-height: 1.5rem;
+  font-weight: bold;
+}
+
+.custom-orderedlist li {
+  color: #707070;
+  font-style: italic;
+  font-weight: bold;
+  margin: 1.5rem 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .about-block h1 {
+    font-size: 1.8rem;
+  }
+  .about-block p,
+  .custom-orderedlist li {
+    font-size: 0.9rem;
+  }
+}

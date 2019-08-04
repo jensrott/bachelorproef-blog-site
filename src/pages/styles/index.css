@@ -1,0 +1,123 @@
+.section-1 {
+  /* background-color: #fff; */
+  /* display: flex;
+  align-items: center; */
+  margin: 0;
+  width: 100%;
+  height: 68vh;
+  margin-top: 5rem;
+}
+
+.landing-title {
+  font-size: 4rem;
+  margin-top: 2rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.landing-title-2 {
+  font-size: 2.8rem;
+  margin-bottom: 3.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.landing-text-2 {
+  font-size: 1rem;
+  line-height: 2rem;
+  margin-bottom: 3.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.landing-button {
+  margin-bottom: 4rem;
+}
+
+.landing-button button {
+  z-index: 1;
+  position: relative;
+  font-size: 1rem;
+  font-family: inherit;
+  font-weight: bold;
+  color: white;
+  padding: 1em 3em;
+  outline: none;
+  border: none;
+  border-radius: 1rem;
+  background-color: #eb8555;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.landing-button button:hover {
+  cursor: pointer;
+  color: #161616;
+  background-color: #f4d38b;
+}
+
+.center-vertical {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.home-card {
+  border: 1px solid rgb(226, 231, 234);
+  background: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 8, 0.08) 0px 4px 8px 0px;
+  border-radius: 2rem;
+  padding: 22px 48px;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.home-card h1 {
+  font-weight: bold;
+  color: #707070;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.blog-image {
+  width: 107px;
+  height: auto;
+  margin-top: 2rem;
+}
+
+.section-2 {
+  background-color: #5d7585;
+}
+
+.mb-3-5 {
+  margin-bottom: 3.5rem;
+}
+
+@media only screen and (max-width: 1199px) {
+  .landing-title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section-1 {
+    height: 100vh;
+    margin: 0;
+  }
+
+  .landing-title-2 {
+    font-size: 2.5rem;
+  }
+
+  .mobile-bottom {
+    margin-bottom: 3rem;
+  }
+  /* .landing-image {
+    display: none;
+  } */
+}
