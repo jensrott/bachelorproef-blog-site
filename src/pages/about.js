@@ -24,10 +24,14 @@ const About = () => {
             <Link to="/blog"> Doel</Link>
           </h1>
           <p>
-            De website heeft als hoofddoel om jonge gezinnen een zicht te geven
-            op het gebruik van domotica in hun eerste woonst. De resultaten van
-            mijn onderzoek heb ik verwerkt in de artikels die te vinden zijn in
-            de blog.
+            Deze website maakt deel uit van mijn bachelorproef. Dit is het
+            afsluitend werkstuk van mijn studie Grafische en Digitale Media,
+            afstudeerrichting New Media Development. <br />
+            De website heeft als hoofddoel om jonge gezinnen wegwijs te maken
+            bij het gebruik van domotica in hun eerste woonst en bevat twee
+            onderdelen: een blog en een fysische demonstrator. In de beide
+            onderdelen heb ik zoveel mogelijk de resultaten van mijn onderzoek
+            verwerkt
           </p>
         </div>
         <div className="about-block">
@@ -57,14 +61,23 @@ const About = () => {
             <li>
               <Link to="/tag/entertainment/">Entertainment</Link>
             </li>
-            <li>
-              <Link to="/tag/budget/">Budget</Link>
-            </li>
           </ol>
           <p>
-            Deze onderwerpen heb ik verwerkt in enkele onderzoekende
-            blogartikels. <br />
-            De blog kan later nog worden aangepast, dus hou deze zeker in de
+            Naast het dieper ingaan op deze functionaliteiten zal de blog ook
+            een aantal{" "}
+            <Link
+              style={{
+                color: "#707070",
+                fontStyle: "italic",
+                fontWeight: "bold",
+              }}
+              to="/tag/tips-&-tricks/"
+            >
+              Tips & Tricks
+            </Link>{" "}
+            <br />
+            bevatten voor de beginnende domotica gebruiker. <br />
+            De blog zal later nog worden aangepast, dus hou deze zeker in de
             gaten!
           </p>
         </div>
@@ -73,19 +86,11 @@ const About = () => {
             <Link to="/Demonstrator"> Demonstrator</Link>
           </h1>
           <p>
-            Dit demonstreert de mogelijkheden van domotica. <br />
-            Het bekijken van de demonstrator vereist een login. Registreren is
-            hier mogelijk.
-          </p>
-        </div>
-        <div className="about-block">
-          <h1>
-            <Link to="/"> Bachelorproef</Link>
-          </h1>
-          <p>
-            Deze website maakt deel uit van mijn bachelorproef. <br />
-            Dit is het afsluitend werkstuk voor mijn richting New Media
-            Development.
+            De fysische demonstrator is een eerste praktische implementatie van
+            een <br />
+            aantal domotica functionaliteiten. Dit gedeelte geeft rechtstreeks
+            toegang tot deze demonstrator. Het bekijken van de demonstrator
+            vereist een login. Registreren is hier ook mogelijk.
           </p>
         </div>
       </Container>

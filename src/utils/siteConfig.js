@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: "Domotica",
+  siteTitle: "Domotica platform",
   siteTitleAlt: "Domotica site voor jonge gezinnen", // This allows an alternative site title for SEO schema.
   publisher: "Jens Rottiers", // Organization name used for SEO schema
   siteDescription:

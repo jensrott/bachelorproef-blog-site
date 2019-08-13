@@ -26,10 +26,7 @@ class Index extends Component {
           <Container>
             <div className="row">
               <div className="col-lg-6 col-md-6 center-vertical">
-                <div className="landing-title">
-                  {" "}
-                  Zelf je slimme huis opzetten
-                </div>
+                <div className="landing-title">Jouw domotica starterskit</div>
                 <div className="landing-button">
                   <button onClick={() => this.scrollDown()} className="button">
                     Lees meer
@@ -62,7 +59,7 @@ class Index extends Component {
             <div className="row mb-3-5">
               <div className="col-lg-4 mobile-bottom">
                 <Link to="/about" className="home-card">
-                  <h1> Gezin</h1> <br />
+                  <h1> Introductie</h1> <br />
                   <img src={gezinLogo} alt="" />
                 </Link>
               </div>
@@ -74,10 +71,12 @@ class Index extends Component {
                 </Link>
               </div>
               <div className="col-lg-4 mobile-bottom">
-                <Link to="/about" className="home-card">
+                <a href="#" className="home-card">
+                  {" "}
+                  {/* Netlify url */}
                   <h1>Demonstrator</h1> <br />
                   <img src={constructionLogo} alt="" />
-                </Link>
+                </a>
               </div>
             </div>
           </Container>

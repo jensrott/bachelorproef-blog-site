@@ -56,22 +56,20 @@ const Body = styled.div`
   ul {
     li {
       list-style: disc;
-      list-style-position: inside;
+      list-style-position: outside;
       line-height: 1.25;
-      &:last-child {
-        margin: 0;
-      }
+      margin: 1rem;
+      padding-left: 0.5rem;
     }
   }
 
   ol {
     li {
       list-style: decimal;
-      list-style-position: inside;
+      list-style-position: outside;
       line-height: 1.25;
-      &:last-child {
-        margin: 0;
-      }
+      margin: 1rem;
+      padding-left: 0.5rem;
     }
   }
 

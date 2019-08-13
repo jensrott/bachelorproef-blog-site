@@ -29,13 +29,11 @@ const Blog = ({ data, pageContext }) => {
         {isFirstPage ? (
           <CardList>
             <Card {...featuredPost} featured />
-            {posts.slice(1).map(
-              ({ node: post }) => (
-                // console.log(post.title),
-                (post.title = post.title.slice(0, 20)),
-                <Card key={post.id} {...post} />
-              )
-            )}
+            {posts.slice(1).map(({ node: post }) => (
+              // console.log(post.title),
+              // (post.title = post.title.slice(0, 20)),
+              <Card key={post.id} {...post} />
+            ))}
           </CardList>
         ) : (
           <CardList>

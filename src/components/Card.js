@@ -44,7 +44,8 @@ const Post = styled.li`
 const Title = styled.h2`
   font-size: 1.2rem;
   font-weight: 600;
-  margin: 1rem 1rem 0.5rem 1rem;
+  margin: 2rem 1rem 2rem 1rem;
+  line-height: 1.5rem;
 `
 
 const Date = styled.h3`
@@ -55,6 +56,8 @@ const Date = styled.h3`
 const ReadMore = styled.h4`
   margin: 1rem 1rem 0.9rem 1rem;
   color: #808080;
+  font-style: italic;
+  font-weight: bold;
 `
 
 const Excerpt = styled.p`
@@ -80,15 +83,15 @@ const Card = ({
     <Post featured={props.featured}>
       <Link to={`/${slug}/`}>
         <Img fluid={heroImage.fluid} backgroundColor={"#eeeeee"} />
-        <Title>{`${title}...`}</Title>
+        <Title>{`${title}`}</Title>
         <Date>{publishDate}</Date>
         {/* <ReadingTime>{timeToRead} min read</ReadingTime> */}
-        <ReadMore>Lees Meer</ReadMore>
         <Excerpt
           dangerouslySetInnerHTML={{
             __html: body.childMarkdownRemark.excerpt,
           }}
         />
+        <ReadMore>Lees Meer</ReadMore>
       </Link>
     </Post>
   )

@@ -64,7 +64,7 @@ class Pagination extends React.Component {
     return (
       <Wrapper>
         {!isFirst && (
-          <PreviousLink to={prevPageLink}>&#8592; Volgende pagina</PreviousLink>
+          <PreviousLink to={prevPageLink}>&#8592; Vorige pagina</PreviousLink>
         )}
         {!isNotPaginated && (
           <PageIndicator>
