@@ -62,7 +62,7 @@ const ReadMore = styled.h4`
 
 const Excerpt = styled.p`
   margin: 0 1rem 1rem 1rem;
-  line-height: 1.6;
+  line-height: 1.8;
   @media screen and (min-width: ${props => props.theme.responsive.small}) {
     font-size: 0.9rem;
   }
