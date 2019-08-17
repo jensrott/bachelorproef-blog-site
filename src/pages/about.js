@@ -39,8 +39,8 @@ const About = () => {
             <Link to="/blog"> Blog</Link>
           </h1>
           <p>
-            Uit mijn enquête is gebleken dat gezinnen vooral geïnteresseerd zijn
-            in volgende onderwerpen:
+            Uit een enquête is gebleken dat jonge gezinnen vooral geïnteresseerd
+            zijn in volgende onderwerpen:
           </p>
           <ol className="custom-orderedlist">
             <li>

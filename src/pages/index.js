@@ -20,6 +20,7 @@ class Index extends Component {
     })
   }
   render() {
+    const demonstatorUrl = "https://hungry-meninsky-56ee32.netlify.com"
     return (
       <Layout>
         <section className="section-1">
@@ -58,22 +59,20 @@ class Index extends Component {
             </div>
             <div className="row mb-3-5">
               <div className="col-lg-4 mobile-bottom">
-                <Link to="/about" className="home-card">
+                <Link to="/about/" className="home-card">
                   <h1> Introductie</h1> <br />
                   <img src={gezinLogo} alt="" />
                 </Link>
               </div>
               <div className="col-lg-4 mobile-bottom">
-                <Link to="/blog" className="home-card">
+                <Link to="/blog/" className="home-card">
                   <h1> Blog </h1>
                   <br />
                   <img src={blogLogo} alt="" />
                 </Link>
               </div>
               <div className="col-lg-4 mobile-bottom">
-                <a href="#" className="home-card">
-                  {" "}
-                  {/* Netlify url */}
+                <a href={demonstatorUrl} className="home-card">
                   <h1>Demonstrator</h1> <br />
                   <img src={constructionLogo} alt="" />
                 </a>

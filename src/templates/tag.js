@@ -55,14 +55,9 @@ const TagTemplate = ({ data, pageContext }) => {
         </PageTitle>
 
         <CardList>
-          {posts
-            .slice(skip, limit * currentPage)
-            .map(
-              post => (
-                (post.title = post.title.slice(0, 20)),
-                (console.log(post.title), <Card {...post} key={post.id} />)
-              )
-            )}
+          {posts.slice(skip, limit * currentPage).map(post => (
+            <Card {...post} key={post.id} />
+          ))}
         </CardList>
       </Container>
       <Pagination context={pageContext} />

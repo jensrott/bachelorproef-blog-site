@@ -4,9 +4,11 @@
 
 A blog with articles about domotics for young families.
 
+This site is part of my thesis.
+
 ## Try it out
 
-Site: .... netlify url comes here
+[Website](https://sleepy-hermann-296ff5.netlify.com/)
 
 Enter your data in a .env.example file
 
