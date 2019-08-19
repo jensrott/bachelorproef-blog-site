@@ -68,9 +68,7 @@ const Menu = () => {
             </Link>
           </Li>
           <Li>
-            <Link to="/demonstrator/" activeStyle={activeLinkStyle}>
-              Demonstrator
-            </Link>{" "}
+            <a href="https://nervous-pike-dfb37b.netlify.com/">Demonstrator</a>{" "}
             {/* Link to demonstrator site */}
           </Li>
         </Ul>
