@@ -8,7 +8,7 @@ This site is part of my thesis.
 
 ## Try it out
 
-[Website](https://sleepy-hermann-296ff5.netlify.com/)
+[Website](https://eloquent-clarke-888930.netlify.com/)
 
 Enter your data in a .env.example file
 
